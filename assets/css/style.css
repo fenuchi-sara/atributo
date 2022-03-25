@@ -1,0 +1,190 @@
+body {
+	background-color: #9a55df;
+	color: #FFF;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #D89000;
+}
+
+.yellow-highlight {
+	font-family: 'Space Mono', sans-serif;
+	font-weight: 700;
+	color: #E09809;
+	text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+/* HEADER */
+
+header {
+	background-color: #0D160B;
+	padding: 30px;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline;
+	right-left: 5px;
+}
+
+#about, #timeline, #gallery {
+	border-left: 3px solid #0D160B;
+	border-right: 3px solid #0D160B;
+	border-bottom: 3px solid #0D160B;
+}
+
+p {
+	padding: 10px 25px;
+	line-height: 1.5em;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Space Mono', sans-serif;
+	font-size: 2em;
+	font-weight: 700;
+}
+
+h2 {
+	text-align: center;
+	font-size: 22px;
+	padding: 15px;
+}
+
+/* ABOUT */
+
+#about {
+	background-color: #484F90;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+}
+
+#about img {
+	width: 100%;
+	margin: auto;
+}
+
+/* GALLERY */
+
+#gallery {
+	background-color: #E09809;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.gallery-images {
+	width: 85%;
+	margin: 10px 2.5px;
+	border: 2px solid white;
+}
+
+/* TIMELINE */
+
+#timeline {
+	background-color: #CB4646;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+}
+
+#timeline ul li {
+	background-color: #FFF;
+	color: #484F90;
+	display: block;
+	padding: 5px;
+	margin: 10px auto;
+	width: 85%;
+	font-size: .9em;
+	font-weight: bold;
+	text-align: left;
+	text-decoration: none;
+
+}
+
+.timeline-dates {
+	background-color: #E09809;
+	padding: 5px;
+}
+
+/* LINKS */
+
+#links {
+	background-color: #484F90;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px 0;
+}
+
+#links {
+	border-left: 3px solid #0D160B;
+	border-right: 3px solid #0D160B;
+}
+
+/* FOOTER */
+
+footer {
+	background-color: #0D160B;
+	padding: 10px;
+	text-align: center;
+}
+
+.footer-img {
+	max-width: 40px;
+	padding: 5px;
+}
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 500px) {
+
+	.gallery-images {
+		max-width: 350px;
+	}
+
+	#timeline ul li {
+		max-width: 65%;
+	}
+
+	#about, #timeline, #gallery, #links {
+		width: 85%;	
+	}
+
+	#about img {
+		width: 85%;
+	}
+
+}
+
+@media screen and (min-width: 790px) {
+
+	.gallery-images {
+		max-width: 350px;
+		margin: 10px 1%;
+	}
+
+	#timeline ul li {
+		max-width: 50%;
+	}	
+
+	#about img {
+		max-width: 650px;
+	}
+
+	#about p {
+		margin: 20px 50px;
+	}
+
+}
